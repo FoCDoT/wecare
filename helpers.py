@@ -8,56 +8,45 @@ from plotly.offline import init_notebook_mode, plot, iplot
 init_notebook_mode(connected=True)
 
 
-map_10_dict = {
-	0:{'pos':(76,390), 'connections': []},
-    1:{'pos':(96,272), 'connections': []},
-    2:{'pos':(185,285), 'connections': []},
-    3:{'pos':(87,226), 'connections': []},
-    4:{'pos':(199,251), 'connections': []},
-    5:{'pos':(99,142), 'connections': []},
-    6:{'pos':(207,159), 'connections': []},
-    7:{'pos':(108,65), 'connections': []},
-    8:{'pos':(244,77), 'connections': []},
-    9:{'pos':(310,55), 'connections': []},
-    10:{'pos':(330,162), 'connections': []},
-    11:{'pos':(308,161), 'connections': []},
-    12:{'pos':(408,42), 'connections': []},
-    13:{'pos':(447,96), 'connections': []},
-    14:{'pos':(484,124), 'connections': []},
-    15:{'pos':(547,140), 'connections': []},
-    16:{'pos':(632,161), 'connections': []},
-    17:{'pos':(698,184), 'connections': []},
-    18:{'pos':(723,124), 'connections': []},
-    19:{'pos':(790,86), 'connections': []},
-    20:{'pos':(828,64), 'connections': []},
-    21:{'pos':(827,62), 'connections': []},
-    22:{'pos':(743,23), 'connections': []},
-    23:{'pos':(685,58), 'connections': []},
-    24:{'pos':(579,42), 'connections': []},
-    25:{'pos':(565,80), 'connections': []},
-    26:{'pos':(648,95), 'connections': []},
-    27:{'pos':(588,273), 'connections': []},
-    28:{'pos':(518,259), 'connections': []},
-    29:{'pos':(541,510), 'connections': []},
-    30:{'pos':(589,409), 'connections': []},
-    31:{'pos':(446,235), 'connections': []},
-    32:{'pos':(361,254), 'connections': []},
-    33:{'pos':(493,373), 'connections': []},
-    34:{'pos':(445,439), 'connections': []},
-    35:{'pos':(510,522), 'connections': []},
-    36:{'pos':(57,61), 'connections': []},
-    37:{'pos':(64,40), 'connections': []},
-    38:{'pos':(219,420), 'connections': []},
-    39:{'pos':(503,317), 'connections': []},
-    40:{'pos':(349,389), 'connections': []},
-    41:{'pos':(225,348), 'connections': []}
-}
-
-
-""""""
 map_40_dict = {
-	0: {'pos': (76, 390), 'connections': []}, 
+    0:{'pos':(62,-36), 'connections': [1]},
+1:{'pos':(54,-61), 'connections': [0,2]},
+2:{'pos':(106,-67), 'connections': [1,3,25]},
+3:{'pos':(247,-77), 'connections': [2,4]},
+4:{'pos':(308,-58), 'connections': [3,5,22]},
+5:{'pos':(408,-40), 'connections': [4,6]},
+6:{'pos':(445,-95), 'connections': [5,8,22]},
+7:{'pos':(544,-137), 'connections': [10,8,18,9]},
+8:{'pos':(474,-121), 'connections': [6,7,20]},
+9:{'pos':(629,-159), 'connections': [7,11,16,17]},
+10:{'pos':(559,-76), 'connections': [11,7]},
+11:{'pos':(652,-99), 'connections': [9,10,12,15]},
+12:{'pos':(679,-55), 'connections': [11,13,15]},
+13:{'pos':(743,-20), 'connections': [12,14]},
+14:{'pos':(783,-84), 'connections': [13,15]},
+15:{'pos':(718,-121), 'connections': [11,12,14,16]},
+16:{'pos':(689,-180), 'connections': [15,9,19]},
+17:{'pos':(588,-275), 'connections': [19,18,9]},
+18:{'pos':(513,-257), 'connections': [7,17,20,31]},
+19:{'pos':(639,-291), 'connections': [16,17,32]},
+20:{'pos':(449,-238), 'connections': [21,8,18]},
+21:{'pos':(367,-253), 'connections': [20,22,24,29]},
+22:{'pos':(336,-159), 'connections': [4,21,23]},
+23:{'pos':(311,-166), 'connections': [22]},
+24:{'pos':(197,-250), 'connections': [21,25]},
+25:{'pos':(84,-228), 'connections': [2,24,26]},
+26:{'pos':(153,-338), 'connections': [25,27]},
+27:{'pos':(221,-421), 'connections': [28,26]},
+28:{'pos':(349,-449), 'connections': [27,29]},
+29:{'pos':(446,-445), 'connections': [21,28,30,33]},
+30:{'pos':(483,-377), 'connections': [29,31,32]},
+31:{'pos':(499,-322), 'connections': [18,30]},
+32:{'pos':(584,-408), 'connections': [19,30]},
+33:{'pos':(509,-524), 'connections': [29,32]}
 }
+
+
+
 
 
 class Map:
