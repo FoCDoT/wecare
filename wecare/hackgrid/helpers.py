@@ -253,5 +253,5 @@ def show_map(M, start=None, goal=None, path=None):
                     xaxis=XAxis(showgrid=False, zeroline=False, showticklabels=False),
                     yaxis=YAxis(showgrid=False, zeroline=False, showticklabels=False)))
     #pio.write_image(fig, 'images/fig1.svg')
-    return (plotly.offline.plot(fig,output_type = "div", include_plotlyjs=False))
+    return(plotly.offline.plot(fig,output_type = "div", include_plotlyjs=False))
     
